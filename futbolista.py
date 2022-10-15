@@ -32,5 +32,3 @@ class Futbolista(Persona, Deportista):
     
     def __str__(self):
         return "Mi nombre es " + Persona.getNombre + " soy profesional en el deporte " + Deportista.getString + " Tengo " + Persona.getEdad + " años de edad y  llevo " + Deportista.getAñosPracticando + " años en el deporte"
-    
-
